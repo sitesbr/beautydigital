@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Autoridade Digital 360º - Transforme Seu Salão</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@lucide/lucide@latest"></script>
     <style>
         .offer-timer {
             background: linear-gradient(135deg, #fce7f3 0%, #f3e8ff 100%);
@@ -29,17 +32,17 @@
         }
     </style>
 </head>
-<body class="font-sans bg-white text-gray-800">
+<body class="font-inter bg-[#FAFAFA] text-[#2D2D2D]">
     <!-- Header -->
-    <header class="bg-pink-50 py-6">
+    <header class="bg-[#F8F5F0] py-10">
         <div class="container mx-auto px-4">
             <div class="flex justify-center">
-                <h1 class="text-3xl md:text-4xl font-bold text-center text-purple-800 max-w-3xl">
+                <h1 class="text-3xl md:text-4xl font-playfair font-bold text-center text-[#5a1e4a] max-w-3xl tracking-wide">
                     O Próximo Nível do Seu Salão Está a Um Clique de Distância
                 </h1>
             </div>
-            <div class="mt-4 flex justify-center">
-                <p class="text-xl text-center text-purple-700 max-w-3xl">
+            <div class="mt-6 flex justify-center">
+                <p class="text-xl text-center text-[#2D2D2D] max-w-3xl leading-loose">
                     Já imaginou a sua agenda lotada com clientes novas que encontram seu salão no Google e Instagram, sem depender só do boca a boca?
                 </p>
             </div>
@@ -77,20 +80,20 @@
     </section>
 
     <!-- Features Section -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-[#FAFAFA]">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-purple-800 mb-12">
+            <h2 class="text-3xl font-playfair font-bold text-center text-[#5a1e4a] mb-12 tracking-wide">
                 Como o Sistema Autoridade Digital 360º Transforma Seu Salão
             </h2>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <!-- Feature 1 -->
-                <div class="bg-white p-6 rounded-xl shadow-md feature-card transition duration-300 border border-pink-100">
-                    <div class="text-pink-500 text-4xl mb-4">
-                        <i class="fas fa-star"></i>
+                <div class="bg-white p-6 rounded-2xl shadow-lg transition duration-300 border border-[#e5e5e5] hover:shadow-xl">
+                    <div class="text-[#7C6C91] mb-4">
+                        <i data-lucide="star" class="w-8 h-8"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-purple-800 mb-3">O Começo de Tudo: Sua Marca</h3>
-                    <p class="text-gray-700">Criação dos fundamentos da sua marca e definição do público-alvo, para que sua mensagem seja clara e autêntica.</p>
+                    <h3 class="text-xl font-medium text-[#2D2D2D] mb-3">O Começo de Tudo: Sua Marca</h3>
+                    <p class="text-[#444] leading-relaxed">Criação dos fundamentos da sua marca e definição do público-alvo, para que sua mensagem seja clara e autêntica.</p>
                 </div>
                 
                 <!-- Feature 2 -->
@@ -142,19 +145,19 @@
     </section>
 
     <!-- Offer Section -->
-    <section id="oferta" class="py-16 offer-timer">
+    <section id="oferta" class="py-16 bg-[#f5f0f7]">
         <div class="container mx-auto px-4">
-            <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+            <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden border border-[#d5cce5]">
                 <div class="p-8">
-                    <h2 class="text-3xl font-bold text-center text-purple-800 mb-6">
+                    <h2 class="text-3xl font-playfair font-bold text-center text-[#5a1e4a] mb-6 tracking-wide">
                         Oferta Exclusiva para a Vila Carrão
                     </h2>
                     
                     <div class="flex flex-col md:flex-row justify-center items-center mb-8 gap-6">
                         <div class="text-center">
-                            <p class="text-gray-600 line-through text-xl">De R$ 1.213,65</p>
-                            <p class="text-4xl font-bold text-pink-600">Por apenas R$ 788,87</p>
-                            <p class="text-gray-700 mt-2">à vista ou até 12x no cartão</p>
+                            <p class="text-[#888] line-through text-xl opacity-70">De R$ 1.213,65</p>
+                            <p class="text-4xl font-extrabold text-[#5a1e4a]">Por apenas R$ 788,87</p>
+                            <p class="text-[#666] mt-2">à vista ou até 12x no cartão</p>
                         </div>
                     </div>
                     
@@ -283,22 +286,23 @@
     </section>
 
     <!-- Final CTA -->
-    <section class="py-16 bg-gradient-to-r from-pink-500 to-purple-600 text-white">
+    <section class="py-16 bg-gradient-to-r from-[#5a1e4a] to-[#7c6c91] text-white">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-6">
+            <h2 class="text-3xl font-playfair font-bold mb-6 tracking-wide">
                 Pronta para Transformar a Presença Digital do Seu Salão?
             </h2>
-            <p class="text-xl mb-8 max-w-2xl mx-auto">
+            <p class="text-xl mb-8 max-w-2xl mx-auto leading-loose">
                 Clique no botão abaixo e dê o primeiro passo para lotar sua agenda com clientes que estão te procurando agora mesmo na internet.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="https://pay.hotmart.com/I96091618K?off=pui0u4xr&offDiscount=VILACARRAOSP" class="bg-white hover:bg-gray-100 text-purple-800 font-bold py-4 px-8 rounded-lg transition duration-300 transform hover:scale-105">
-                    <i class="fas fa-shopping-cart mr-2"></i> Quero Meu Sistema Agora!
+                <a href="https://pay.hotmart.com/I96091618K?off=pui0u4xr&offDiscount=VILACARRAOSP" class="bg-white hover:bg-gray-100 text-[#5a1e4a] font-bold py-3 px-6 rounded-xl shadow-md hover:scale-105 transition inline-flex items-center gap-2">
+                    <i data-lucide="shopping-cart" class="w-5 h-5"></i> Quero Meu Sistema Agora!
                 </a>
-                <a href="https://wa.me/5511984071550" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg transition duration-300">
-                    <i class="fab fa-whatsapp mr-2"></i> Tirar Dúvidas
+                <a href="https://wa.me/5511984071550" target="_blank" class="bg-[#2E7D6F] hover:bg-[#1f5a4f] text-white font-bold py-3 px-6 rounded-xl shadow-md hover:scale-105 transition inline-flex items-center gap-2">
+                    <i data-lucide="message-circle" class="w-5 h-5"></i> Tirar Dúvidas
                 </a>
             </div>
+            <p class="text-sm opacity-80 mt-6">Transforme seu salão em uma autoridade digital em até 30 dias</p>
         </div>
     </section>
 
@@ -320,6 +324,11 @@
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
 
     <!-- Countdown Timer Script -->
 <script>
