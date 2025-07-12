@@ -6,16 +6,26 @@
     <title>Transforme Seguidores em Clientes para Seu Salão</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/@heroicons/vue@2.0.11/dist/index.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
         
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Inter', sans-serif;
             overflow-x: hidden;
+            background-color: #F8F5F0;
+            color: #333;
+            letter-spacing: 0.025em;
+            line-height: 1.75;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 0.05em;
         }
         
         .hero-gradient {
-            background: linear-gradient(135deg, #f9e3ff 0%, #e7f0ff 100%);
+            background: linear-gradient(135deg, #F8F5F0 0%, #E8E5E0 100%);
         }
         
         .highlight-box {
@@ -51,11 +61,11 @@
 </head>
 <body class="text-gray-800">
     <!-- Header/Navigation -->
-    <header class="sticky top-0 z-50 bg-white shadow-sm">
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center">
-                <i class="fas fa-scissors text-purple-600 text-2xl mr-2"></i>
-                <span class="font-bold text-xl bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">BeautyDigital</span>
+                <i class="fas fa-scissors text-[#7C6C91] text-2xl mr-2"></i>
+                <span class="font-bold text-xl text-[#5A1E4A]">BeautyDigital</span>
             </div>
             <button class="md:hidden text-purple-600">
                 <i class="fas fa-bars text-2xl"></i>
@@ -83,7 +93,7 @@
                 </p>
          <a href="/beautydigital/salao2.html"
           ><button
-                  class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full btn-glow transition-all"
+                  class="bg-gradient-to-r from-[#5A1E4A] to-[#7C6C91] hover:from-[#7C6C91] hover:to-[#5A1E4A] text-white font-medium py-3 px-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2"
               >
                    Quero Saber Mais Sobre o Sistema 360º
               </button>
@@ -122,12 +132,12 @@
             
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Pain Point 1 -->
-                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all">
-                    <div class="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-question text-pink-600 text-2xl"></i>
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-[#e5e5e5] hover:shadow-lg transition-all hover:border-[#D1A5A0]">
+                    <div class="w-16 h-16 bg-[#F8F5F0] rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-question text-[#5A1E4A] text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3 text-center">Mesmas perguntas repetidas</h3>
-                    <p class="text-gray-600 text-center">
+                    <h3 class="text-xl font-semibold mb-4 text-center text-[#2E7D6F]">Mesmas perguntas repetidas</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
                         "Você se dedica a criar conteúdo lindo, mas ainda precisa responder as mesmas perguntas no WhatsApp o tempo todo?"
                     </p>
                 </div>
@@ -321,7 +331,7 @@
     </section>
 
     <!-- Final CTA -->
-    <section class="py-16 px-4 bg-gradient-to-r from-purple-600 to-pink-500 text-white">
+    <section class="py-20 px-4 bg-gradient-to-r from-[#5A1E4A] to-[#7C6C91] text-white">
         <div class="container mx-auto text-center">
             <h2 class="text-2xl md:text-3xl font-bold mb-6">Pronta para Transformar Seguidores em Clientes Reais?</h2>
             <p class="text-xl mb-8 max-w-2xl mx-auto">Não deixe seu esforço no Instagram ir para o lixo. Converse com a gente e descubra como aumentar suas agendamentos.</p>
@@ -341,7 +351,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12 px-4">
+    <footer class="bg-[#2E7D6F] text-white py-16 px-4">
         <div class="container mx-auto">
             <div class="flex flex-col md:flex-row justify-between">
                 <div class="mb-8 md:mb-0">
